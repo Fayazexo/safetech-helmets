@@ -6,7 +6,7 @@ import dataDigital from "../../data/Slider/digital-agency-data.json";
 import HeaderOne from "../../components/Header/HeaderOne";
 import HeroSliderSeven from "../../components/Hero/HeroSliderSeven";
 import WhoWeAreSix from "../../components/WhoWeAre/WhoWeAreSix";
-import Portfolio from "../../components/Portfolio/Portfolio";
+
 import CounterTwo from "../../components/Counters/CounterTwo";
 
 import ClientsBrand from "../../components/ClientsBrand/ClientsBrand";
