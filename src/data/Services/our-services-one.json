@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "rocket-alt-1",
+    "title": "Aerospace Material",
+    "text": "We use high quality aerospace materials to ensure quality of our products"
+  },
+  {
+    "id": 2,
+    "icon": "brain",
+    "title": "Research",
+    "text": "Our engineers have researched day and night to come up with the best design that is optimized for safety and looks"
+  },
+  {
+    "id": 3,
+    "icon": "cubes",
+    "title": "Fast Shipping",
+    "text": "We ship in large quantities so that the availability stays high. It is never late to purchase"
+  }
+]

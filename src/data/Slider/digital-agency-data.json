@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "title": "Safety Matters",
+  "tagline": "Safetech Helmets",
+  "image": "slides/home-bg-29.jpg",
+  "bg": "true",
+  "buttons": [
+    {
+      "id": 1,
+      "text": "VIEW ALL PRODUCTS",
+      "link": "!#",
+      "type": "btn-white btn-circle"
+    }
+  ]
+}
