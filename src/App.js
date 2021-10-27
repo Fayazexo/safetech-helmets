@@ -16,9 +16,9 @@ import Page404 from "./pages/others/Page404";
 
 // Shops
 
-import Products from "./pages/shops/Products";
+import FullFace from "./pages/shops/FullFace";
 
-import ShopSingleProduct from "./pages/shops/ShopSingleProduct";
+import FullFaceProduct from "./pages/shops/FullFace/FullFaceProduct";
 
 // Elements
 
@@ -36,13 +36,13 @@ function App() {
           />
           <Route
             exact
-            path={`${process.env.PUBLIC_URL}/shop-product`}
-            component={ShopSingleProduct}
+            path={`${process.env.PUBLIC_URL}/full-face/:productHandle`}
+            component={FullFaceProduct}
           />
           <Route
             exact
-            path={`${process.env.PUBLIC_URL}/Products`}
-            component={Products}
+            path={`${process.env.PUBLIC_URL}/full-face`}
+            component={FullFace}
           />
           <Route
             exact
