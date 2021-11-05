@@ -1,19 +1,20 @@
 import React from "react";
 import Slider from "react-slick";
-import dataProducts from "../../data/OnlineShop/basic-shop-data.json";
-import img1 from "../../assets/images/shop/single-product-01.jpg";
-import img2 from "../../assets/images/shop/single-product-02.jpg";
-import img3 from "../../assets/images/shop/single-product-03.jpg";
-import img4 from "../../assets/images/shop/single-product-04.jpg";
+import dataProducts from "../../data/OnlineShop/full-face-data.json";
 import ShopItem from "./ShopItem";
+import { useParams } from "react-router-dom";
 
-const ShopProduct = () => {
+const ShopProduct = ({ productType }) => {
+  const { productId } = useParams();
+  console.log(productId);
   const settings = {
     customPaging: function (i) {
       return (
         <a href="!#">
           <img
-            src={require(`../../assets/images/shop/single-product-0${i + 1}.jpg`)}
+            src={require(`../../assets/images/shop/${productType}/${productId}/image-0${
+              i + 1
+            }.png`)}
             alt=""
           />
         </a>
@@ -30,6 +31,11 @@ const ShopProduct = () => {
     slidesToScroll: 1,
   };
 
+  const img1 = require(`../../assets/images/shop/${productType}/${productId}/image-01.png`);
+  const img2 = require(`../../assets/images/shop/${productType}/${productId}/image-02.png`);
+  const img3 = require(`../../assets/images/shop/${productType}/${productId}/image-03.png`);
+  const img4 = require(`../../assets/images/shop/${productType}/${productId}/image-04.png`);
+
   return (
     <>
       <div className="row">
@@ -37,32 +43,16 @@ const ShopProduct = () => {
           <div className="product-slider">
             <Slider {...settings}>
               <div>
-                <img
-                  src={img1}
-                  className="img-fluid"
-                  alt="single-product"
-                />
+                <img src={img1} className="img-fluid" alt="single-product" />
               </div>
               <div>
-                <img
-                  src={img2}
-                  className="img-fluid"
-                  alt="single-product"
-                />
+                <img src={img2} className="img-fluid" alt="single-product" />
               </div>
               <div>
-                <img
-                  src={img3}
-                  className="img-fluid"
-                  alt="single-product"
-                />
+                <img src={img3} className="img-fluid" alt="single-product" />
               </div>
               <div>
-                <img
-                  src={img4}
-                  className="img-fluid"
-                  alt="single-product"
-                />
+                <img src={img4} className="img-fluid" alt="single-product" />
               </div>
             </Slider>
           </div>
@@ -81,26 +71,6 @@ const ShopProduct = () => {
               consectetur urna egestas nec. Nulla facilisi. Aliquam erat
               volutpat. Nam aliquet tellus nec augue auctor maximus.
             </p>
-          </div>
-          <div className="single-product-qty">
-            <form>
-              <input
-                type="number"
-                step="1"
-                min="1"
-                value="1"
-                onChange={() => null}
-                name="quantity"
-                title="Qty"
-                className="input-text qty text"
-                size="4"
-              />
-              <span className="input-group-btn">
-                <a href="!#" className="btn btn-dark">
-                  ADD TO CART <i className="icofont icofont-cart"></i>
-                </a>
-              </span>
-            </form>
           </div>
           <div className="product-fabric-detail">
             <h5>Product Fabric</h5>

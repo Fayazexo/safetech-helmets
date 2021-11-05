@@ -4,16 +4,18 @@ import HeaderOne from "../../../components/Header/HeaderOne";
 import ShopProduct from "../../../components/Shop/ShopProduct";
 import FooterOne from "../../../components/Footer/FooterOne";
 
-const FullFaceProduct = () => (
-  <Loader>
-    <HeaderOne type="white" />
-    <section>
-      <div className="container">
-        <ShopProduct />
-      </div>
-    </section>
-    <FooterOne />
-  </Loader>
-);
+const FullFaceProduct = () => {
+  return (
+    <Loader>
+      <HeaderOne type="white" />
+      <section>
+        <div className="container">
+          <ShopProduct productType="full-face" />
+        </div>
+      </section>
+      <FooterOne />
+    </Loader>
+  );
+};
 
 export default FullFaceProduct;

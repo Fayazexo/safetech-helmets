@@ -19,7 +19,7 @@ function App() {
           />
           <Route
             exact
-            path={`${process.env.PUBLIC_URL}/full-face/:productHandle`}
+            path={`${process.env.PUBLIC_URL}/full-face/:productId`}
             component={FullFaceProduct}
           />
           <Route
