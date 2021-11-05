@@ -19,7 +19,7 @@ const ShopItem = ({ layout, image, title, currency, price, oldPrice }) => (
                   href={process.env.PUBLIC_URL}
                   className="btn btn-color btn-circle"
                 >
-                  ADD TO CART
+                  VIEW PRODUCT
                   <span className="icon">
                     <i className="mdi mdi-cart"></i>
                   </span>

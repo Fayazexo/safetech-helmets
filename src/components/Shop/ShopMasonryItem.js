@@ -14,7 +14,7 @@ const ShopMasonryItem = ({ image, title, currency, price, oldPrice }) => (
             <div className="product-description-wrap">
               <div className="product-title">
                 <a href="!#" className="btn btn-color btn-circle">
-                  ADD TO CART
+                  VIEW PRODUCT
                   <span className="icon">
                     <i className="mdi mdi-cart"></i>
                   </span>

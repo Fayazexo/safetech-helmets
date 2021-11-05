@@ -1,25 +1,25 @@
 [
   {
     "id": 1,
-    "value": 1000,
+    "value": 150,
     "title": "Different Products",
     "icon": "stylish-down"
   },
   {
     "id": 2,
-    "value": 7500,
+    "value": 10000,
     "title": "Happy Clients",
     "icon": "slightly-smile"
   },
   {
     "id": 3,
-    "value": 35,
+    "value": 8,
     "title": "Helmet Design Awards",
     "icon": "trophy"
   },
   {
     "id": 4,
-    "value": 50,
+    "value": 10,
     "title": "Helmet Designs a year",
     "icon": "coffee-cup"
   }
