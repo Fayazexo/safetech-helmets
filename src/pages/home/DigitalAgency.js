@@ -9,7 +9,7 @@ import WhoWeAreSix from "../../components/WhoWeAre/WhoWeAreSix";
 
 import CounterTwo from "../../components/Counters/CounterTwo";
 
-import ClientsBrand from "../../components/ClientsBrand/ClientsBrand";
+// import ClientsBrand from "../../components/ClientsBrand/ClientsBrand";
 
 import FooterOne from "../../components/Footer/FooterOne";
 
@@ -34,7 +34,7 @@ const DigitalAgency = () => {
       /> */}
       <CounterTwo bg="white-bg" />
 
-      <ClientsBrand />
+      {/* <ClientsBrand /> */}
       <FooterOne />
     </Loader>
   );

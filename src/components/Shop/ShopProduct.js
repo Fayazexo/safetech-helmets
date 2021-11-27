@@ -31,11 +31,19 @@ const ShopProduct = ({ productType }) => {
     slidesToScroll: 1,
   };
 
+  function normalizeNames(words) {
+    var separateWord = words.toLowerCase().split(" ");
+    for (var i = 0; i < separateWord.length; i++) {
+      separateWord[i] =
+        separateWord[i].charAt(0).toUpperCase() + separateWord[i].substring(1);
+    }
+    return separateWord.join(" ");
+  }
+
   const img1 = require(`../../assets/images/shop/${productType}/${productId}/image-01.png`);
   const img2 = require(`../../assets/images/shop/${productType}/${productId}/image-02.png`);
   const img3 = require(`../../assets/images/shop/${productType}/${productId}/image-03.png`);
   const img4 = require(`../../assets/images/shop/${productType}/${productId}/image-04.png`);
-
   return (
     <>
       <div className="row">
@@ -58,33 +66,23 @@ const ShopProduct = ({ productType }) => {
           </div>
         </div>
         <div className="col-md-6">
-          <h2>Black Half Sleeve T-Shirt</h2>
-          <h3 className="grey">
-            $59.99 <span className="old-price font-18px">$79.99</span>
-          </h3>
+          <h2>{normalizeNames(productId.replaceAll("-", " "))}</h2>
+          <h3 className="grey">5499.00 ฿</h3>
           <div className="single-product-des">
             <h5>Product Desription</h5>
             <p>
-              <strong>Lorem ipsum</strong> dolor sit amet, consectetur
-              adipiscing elit. Praesent vitae odio ullamcorper, accumsan felis
-              vitae, commodo diam. Proin facilisis iaculis ipsum, non
-              consectetur urna egestas nec. Nulla facilisi. Aliquam erat
-              volutpat. Nam aliquet tellus nec augue auctor maximus.
+              <strong>MATERIALS</strong> Shell Material: Shock Resistant
+              Thermoplastic Cushion Material: Expanded Polystyrene Interior
+              Liner: HMT Visor and Sun Visor: Polycarbonate with Anti Scratch
+              Treatment
             </p>
           </div>
           <div className="product-fabric-detail">
-            <h5>Product Fabric</h5>
-            <p>
-              100% Cotton Single jersey Prewashed to impart a softer texture
-            </p>
-            <h5>WashCare Instructions</h5>
-            <p>
-              Machine wash cold Do not bleach or wash with chlorine based
-              detergent or water Wash/dry inside out Do not iron directly on
-              prints Dry promptly in shade Dry on a flat surface as hanging may
-              cause measurement variations Product color may vary little due to
-              photography Wash with similar clothes.
-            </p>
+            <h5>GENERAL</h5>
+            <p>Weight: 1550±50 g</p>
+            <p>Standard Certificate: DOT FMVSS 218 {"&"} TIS 369-2557</p>
+            <p>Visor Color: Light Smoke Iridium Gold Blue Silver</p>
+            <p>Ventilation Number: 4 Channels</p>
           </div>
         </div>
       </div>
