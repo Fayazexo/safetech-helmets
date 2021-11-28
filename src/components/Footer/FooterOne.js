@@ -35,13 +35,13 @@ const FooterOne = () => (
                 <h5 className="widget-title">Useful Links</h5>
                 <ul>
                   <li>
-                    <a href="#!">Contact Us</a>
+                    <a href="/contact">Contact Us</a>
                   </li>
                   <li>
-                    <a href="#!">Manual</a>
+                    <a href="/manual">Manual</a>
                   </li>
                   <li>
-                    <a href="#!">Size Guide</a>
+                    <a href="/size-guide.pdf">Size Guide</a>
                   </li>
                 </ul>
               </div>
@@ -57,7 +57,7 @@ const FooterOne = () => (
                     <a href={process.env.PUBLIC_URL}>Technology</a>
                   </li>
                   <li>
-                    <a href={process.env.PUBLIC_URL}>Dealers</a>
+                    <a href="/dealers">Dealers</a>
                   </li>
                 </ul>
               </div>
