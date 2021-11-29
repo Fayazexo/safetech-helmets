@@ -67,18 +67,16 @@ const ShopProduct = ({ productType }) => {
           <div className="single-product-des">
             <h5>Product Desription</h5>
             <p>
-              <strong>MATERIALS</strong> Shell Material: Shock Resistant
-              Thermoplastic Cushion Material: Expanded Polystyrene Interior
-              Liner: HMT Visor and Sun Visor: Polycarbonate with Anti Scratch
-              Treatment
+              <strong>MATERIALS</strong> <br />
+              The Visor material is optical polycarbonate.
             </p>
           </div>
           <div className="product-fabric-detail">
-            <h5>GENERAL</h5>
+            {/* <h5>GENERAL</h5>
             <p>Weight: 1550±50 g</p>
             <p>Standard Certificate: DOT FMVSS 218 {"&"} TIS 369-2557</p>
             <p>Visor Color: Light Smoke Iridium Gold Blue Silver</p>
-            <p>Ventilation Number: 4 Channels</p>
+            <p>Ventilation Number: 4 Channels</p> */}
           </div>
         </div>
       </div>

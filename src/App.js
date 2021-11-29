@@ -7,6 +7,7 @@ import FullFace from "./pages/shops/FullFace";
 import VisorProduct from "./pages/shops/Visor/VisorProduct";
 import FullFaceProduct from "./pages/shops/FullFace/FullFaceProduct";
 import ScrollToTop from "./helpers/ScrollToTop";
+import Dealers from "./pages/contact/Dealers";
 
 function App() {
   return (
@@ -35,8 +36,13 @@ function App() {
           />
           <Route
             exact
-            path={`${process.env.PUBLIC_URL}/contact-creative`}
+            path={`${process.env.PUBLIC_URL}/contact`}
             component={ContactCreative}
+          />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL}/dealers`}
+            component={Dealers}
           />
           <Route component={Page404} />
         </Switch>

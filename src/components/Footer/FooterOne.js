@@ -11,7 +11,7 @@ const FooterOne = () => (
             <div className="col-sm-6 col-md-4">
               <div className="widget widget-text">
                 <div className="logo logo-footer">
-                  <a href={`${process.env.PUBLIC_URL}/`}>
+                  <a href={`$"/"/`}>
                     <img
                       className="logo logo-display"
                       src={logoFooter}
@@ -35,13 +35,13 @@ const FooterOne = () => (
                 <h5 className="widget-title">Useful Links</h5>
                 <ul>
                   <li>
-                    <a href="#!">Contact Us</a>
+                    <a href="/contact">Contact Us</a>
                   </li>
                   <li>
-                    <a href="#!">Manual</a>
+                    <a href="/manual">Manual</a>
                   </li>
                   <li>
-                    <a href="#!">Size Guide</a>
+                    <a href="/size-guide">Size Guide</a>
                   </li>
                 </ul>
               </div>
@@ -51,13 +51,13 @@ const FooterOne = () => (
                 <h5 className="widget-title">About Section</h5>
                 <ul>
                   <li>
-                    <a href={process.env.PUBLIC_URL}>About Us</a>
+                    <a href="/about">About Us</a>
                   </li>
                   <li>
-                    <a href={process.env.PUBLIC_URL}>Technology</a>
+                    <a href="/technology">Technology</a>
                   </li>
                   <li>
-                    <a href={process.env.PUBLIC_URL}>Dealers</a>
+                    <a href="/dealers">Dealers</a>
                   </li>
                 </ul>
               </div>
@@ -68,7 +68,7 @@ const FooterOne = () => (
                 <ul>
                   <li>
                     <i className="icofont icofont-google-map"></i>
-                    <a href={process.env.PUBLIC_URL}>
+                    <a href="/">
                       454/307 Soi Luangprakitiwuthison Charansnidvongs Bang Plad
                       Bang Phlat
                     </a>
@@ -85,7 +85,7 @@ const FooterOne = () => (
                   </li>
                   <li>
                     <i className="icofont icofont-globe"></i>
-                    <a href={process.env.PUBLIC_URL}>www.safetechhelmets.com</a>
+                    <a href="/">www.safetechhelmets.com</a>
                   </li>
                 </ul>
               </div>

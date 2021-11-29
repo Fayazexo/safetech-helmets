@@ -2,19 +2,18 @@ import React from "react";
 import Loader from "../../components/Loader/Loader";
 import HeaderOne from "../../components/Header/HeaderOne";
 import PageTitleContact from "../../components/PageTitle/PageTitleContact";
-import ClientsBrand from "../../components/ClientsBrand/ClientsBrand";
-import ContactFour from "../../components/ContactUs/ContactFour";
+import DealersContact from "../../components/ContactUs/DealersContact";
 import FooterOne from "../../components/Footer/FooterOne";
 
 const ContactCreative = () => (
   <Loader>
     <HeaderOne />
     <PageTitleContact
-      title="Safetech Support"
-      tagline="Customer Support 24 Hours"
+      title="Dealers Information"
+      tagline="Safetech Dealers Section"
     />
-    <ContactFour />
-    <ClientsBrand />
+    <DealersContact />
+
     <FooterOne />
   </Loader>
 );
