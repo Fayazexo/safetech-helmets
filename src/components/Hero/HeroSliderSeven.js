@@ -17,11 +17,7 @@ const HeroSliderSeven = ({ data }) => (
                   data.image)}) center center / cover scroll no-repeat`,
               }}
             ></div>
-            <div
-              className={
-                "hero-text-wrap " + (data.bg ? "gradient-overlay-bg" : "")
-              }
-            >
+            <div>
               <div className="hero-text white-color">
                 <div className="container text-center">
                   <h3 className="white-color font-400">{data.tagline}</h3>
