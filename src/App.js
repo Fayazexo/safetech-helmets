@@ -1,13 +1,13 @@
 import React from "react"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import DigitalAgency from "./pages/home/DigitalAgency"
-import ContactCreative from "./pages/contact/ContactCreative"
-import Page404 from "./pages/others/Page404"
-import FullFace from "./pages/shops/FullFace"
-import VisorProduct from "./pages/shops/Visor/VisorProduct"
-import FullFaceProduct from "./pages/shops/FullFace/FullFaceProduct"
-import ScrollToTop from "./helpers/ScrollToTop"
-import Dealers from "./pages/contact/Dealers"
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+// import DigitalAgency from "./pages/home/DigitalAgency"
+// import ContactCreative from "./pages/contact/ContactCreative"
+// import Page404 from "./pages/others/Page404"
+// import FullFace from "./pages/shops/FullFace"
+// import VisorProduct from "./pages/shops/Visor/VisorProduct"
+// import FullFaceProduct from "./pages/shops/FullFace/FullFaceProduct"
+// import ScrollToTop from "./helpers/ScrollToTop"
+// import Dealers from "./pages/contact/Dealers"
 
 function App() {
 	return (
